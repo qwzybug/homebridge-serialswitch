@@ -1,17 +1,17 @@
 {
-  "name": "homebridge-dummy",
+  "name": "homebridge-statefuldummy",
   "version": "0.0.1",
-  "description": "Dummy switches for Homebridge: https://github.com/nfarina/homebridge",
+  "description": "Stateful dummy switches for Homebridge",
   "license": "ISC",
   "keywords": [
     "homebridge-plugin"
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/nfarina/homebridge-dummy.git"
+    "url": "git://github.com/mend1/homebridge-statefuldummy.git"
   },
   "bugs": {
-    "url": "http://github.com/nfarina/homebridge-dummy/issues"
+    "url": "http://github.com/mend1/homebridge-statefuldummy/issues"
   },
   "engines": {
     "node": ">=0.12.0",
