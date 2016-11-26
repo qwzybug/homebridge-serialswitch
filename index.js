@@ -27,11 +27,5 @@ DummySwitch.prototype._setOn = function(on, callback) {
 
   this.log("Setting switch to " + on);
   
-  if (on) {
-    setTimeout(function() {
-      this._service.setCharacteristic(Characteristic.On, false);
-    }.bind(this), 1000);
-  }
-  
   callback();
 }
