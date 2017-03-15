@@ -1,20 +1,23 @@
 {
-  "name": "homebridge-statefuldummy",
+  "name": "homebridge-serialswitch",
   "version": "0.0.1",
-  "description": "Stateful dummy switches for Homebridge",
+  "description": "Simple multi-output serial command sender for Homebridge",
   "license": "ISC",
   "keywords": [
     "homebridge-plugin"
   ],
   "repository": {
     "type": "git",
-    "url": "git://github.com/mend1/homebridge-statefuldummy.git"
+    "url": "git://github.com/qwzybug/homebridge-serialswitch.git"
   },
   "bugs": {
-    "url": "http://github.com/mend1/homebridge-statefuldummy/issues"
+    "url": "http://github.com/qwzybug/homebridge-serialswitch/issues"
   },
   "engines": {
     "node": ">=0.12.0",
     "homebridge": ">=0.2.0"
-  }
+  },
+  "dependencies": {
+    "serialport": ">=4.0.0"
+  }  
 }
