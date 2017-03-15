@@ -10,7 +10,7 @@ Thanks to [StatefulDummySwitch](https://github.com/mend1/homebridge-statefuldumm
 Example config.json:
 
  ```
-   ...
+    ...
     "accessories": [
         {
             "accessory": "SerialSwitch",
